@@ -1,2 +1,1 @@
-# first java project
-# First Java Project
+# My First Java Project in Japan
