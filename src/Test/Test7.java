@@ -1,4 +1,4 @@
-package Java;
+package Test;
 
 import java.util.Scanner;
 
@@ -11,6 +11,7 @@ public class Test7 {
 			System.out.println("Bill : " + a * 1000);
 		} else {
 			System.out.println("Bill : " + ((100 * 1000) + (a - 100) * 1500));
+			scanner.close();
 		}
 	}
 }

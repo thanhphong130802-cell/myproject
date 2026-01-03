@@ -1,4 +1,4 @@
-package Java;
+package Test;
 
 import java.util.Scanner;
 
@@ -10,5 +10,6 @@ public class Test1 {
 		System.out.println("Score: ");
 		int Score = scanner.nextInt();
 		System.out.println(Name + " co diem = " + Score);
+		scanner.close();
 	}
 }

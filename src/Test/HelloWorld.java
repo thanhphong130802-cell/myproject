@@ -1,4 +1,4 @@
-package Java;
+package Test;
 
 import java.util.Scanner;
 
@@ -10,6 +10,6 @@ public class HelloWorld {
 		System.out.println("Second number : ");
 		int Secondnumber = scanner.nextInt();
 		System.out.println("Max : " + Math.max(Firstnumber, Secondnumber));
-
+		scanner.close();
 	}
 }

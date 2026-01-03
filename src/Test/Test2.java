@@ -1,4 +1,4 @@
-package Java;
+package Test;
 
 import java.util.Scanner;
 
@@ -12,5 +12,6 @@ public class Test2 {
 		System.out.println("Chu vi = " + (Chieudai + Chieurong) * 2);
 		System.out.println("Dien tich = " + Chieudai * Chieurong);
 		System.out.println("Canh nho nhat = " + Math.min(Chieudai, Chieurong));
+		scanner.close();
 	}
 }

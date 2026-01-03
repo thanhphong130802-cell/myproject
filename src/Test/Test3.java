@@ -1,4 +1,4 @@
-package Java;
+package Test;
 
 import java.util.Scanner;
 
@@ -8,5 +8,6 @@ public class Test3 {
 		System.out.println("Do dai canh cua khoi lap phuong = ");
 		int Legth = scanner.nextInt();
 		System.out.println("The tich = " + Math.pow(Legth, 3));
+		scanner.close();
 	}
 }

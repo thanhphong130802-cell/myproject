@@ -1,4 +1,4 @@
-package Java;
+package Test;
 
 import java.util.Scanner;
 
@@ -60,6 +60,7 @@ public class Test8 {
 			}
 		} else if (z == 4) {
 			System.out.println("Kết thúc");
+			scanner.close();
 		}
 	}
 
