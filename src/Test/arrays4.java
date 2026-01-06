@@ -1,22 +1,19 @@
 package Test;
 
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class arrays4 {
 	public static void main(String[] args) {
-		int[] a = { 0, 1, 0, 3, 12 };
-		int pos = 0;
-		for (int i = 0; i < a.length; i++) {
-			if (a[i] != 0) {
-				a[pos] = a[i];
-				pos++;
-
-			}
+		Scanner sc = new Scanner(System.in);
+		System.out.println("So luong phan tu: ");
+		int a = sc.nextInt();
+		int[] i = new int[a];
+		System.out.println("Nhap cac so nguyen: ");
+		for (int x = 0; x < a; x++) {
+			i[x] = sc.nextInt();
 		}
-		for (int i = pos; i < a.length; i++) {
-			a[i] = 0;
-		}
-		System.out.println("Ket qua: ");
-		for (int x : a) {
-			System.out.println(x + " ");
-		}
+		System.out.println("Cac so nguyen ban nhap vao la :" + Arrays.toString(i));
+		sc.close();
 	}
 }
